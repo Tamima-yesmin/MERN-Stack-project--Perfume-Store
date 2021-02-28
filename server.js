@@ -20,6 +20,7 @@ app.use(fileUpload({
 app.use('/user', require('./router/userRouter'))
 app.use('/api', require('./router/categoryRouter'))
 app.use('/api', require('./router/upload'))
+app.use('/api', require('./router/productRouter'))
 
 
 
