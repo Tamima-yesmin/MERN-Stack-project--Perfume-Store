@@ -1,5 +1,5 @@
 const Category = require('../models/categoryModel')
-// const Products = require('../models/productModel')
+const Products = require('../models/productModel')
 
 
 const categoryController = {
